@@ -104,7 +104,7 @@ body {
     }
 
     .btn-secondary {
-        background: transparent;
+        background: transparent; 
         color: white;
         padding: 12px 24px;
         border: 2px solid white;
@@ -170,7 +170,7 @@ body {
         top: 0;
         left: 0;
         right: 0;
-        height: 100px;
+
         z-index: 1000;
         transition: all 0.3s ease;
     }
@@ -407,13 +407,13 @@ body {
     }
 
     .scroll-indicator:hover {
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(0, 0, 0, 0.3);
     }
 
     /* Stats Section */
     .stats {
-        background: linear-gradient(135deg, #3b82f6, #1e40af);
-        color: white;
+        background: linear-gradient(135deg, #ffffff, #ffffff);
+        color: rgb(0, 0, 0);
         padding: 5rem 0;
     }
 
@@ -430,7 +430,7 @@ body {
 
     .stats-header p {
         font-size: 1.125rem;
-        color: #bfdbfe;
+        color: #000000;
         max-width: 600px;
         margin: 0 auto;
     }
@@ -443,10 +443,11 @@ body {
     }
 
     .stat-card {
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
+        
+        /* backdrop-filter: blur(0px); */
         border-radius: 16px;
         padding: 2rem;
+        color: #000;
         text-align: center;
         transition: all 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.2);
@@ -454,37 +455,37 @@ body {
 
     .stat-card:hover {
         transform: translateY(-10px);
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(12, 7, 7, 0.2);
     }
 
     .stat-card i {
         font-size: 2rem;
-        color: #bfdbfe;
+        color: #000000;
         margin-bottom: 1rem;
         transition: color 0.3s ease;
     }
 
     .stat-card:hover i {
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     .stat-number {
         font-size: 3rem;
         font-weight: 800;
-        color: white;
+        color: rgb(0, 0, 0);
         display: inline;
     }
 
     .stat-suffix {
         font-size: 3rem;
         font-weight: 800;
-        color: white;
+        color: rgb(0, 0, 0);
         display: inline;
     }
 
     .stat-label {
         font-size: 1.125rem;
-        color: #bfdbfe;
+        color: #000000;
         font-weight: 500;
         margin-top: 0.5rem;
     }
@@ -501,7 +502,7 @@ body {
 
     .stats-info p {
         font-size: 1.125rem;
-        color: #bfdbfe;
+        color: #000000;
         line-height: 1.8;
         margin: 0;
     }
@@ -2105,8 +2106,8 @@ p {
 
 /* Stats Section */
 .stats {
-    background: linear-gradient(135deg, #3b82f6, #1e40af);
-    color: white;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
     padding: 5rem 0;
 }
 
@@ -2136,7 +2137,7 @@ p {
 }
 
 .stat-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(85, 54, 54, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 16px;
     padding: 2rem;
@@ -2164,7 +2165,7 @@ p {
 .stat-number {
     font-size: 3rem;
     font-weight: 800;
-    color: white;
+    color: rgb(0, 0, 0);
     display: inline;
 }
 
@@ -2194,7 +2195,7 @@ p {
 
 .stats-info p {
     font-size: 1.125rem;
-    color: #bfdbfe;
+    color: rgb(0, 0, 0);
     line-height: 1.8;
     margin: 0;
 }
