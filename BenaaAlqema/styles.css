@@ -3199,6 +3199,19 @@ p {
     color: white;
 }
 
+
+
+
+
+.locationimg{
+    width: 50px;
+}
+
+
+
+
+
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -3427,14 +3440,14 @@ p {
 @media (max-width: 800px) {
     .taawan-text {
     bottom: 160px;
-    font-size:19;
+    font-size:19px ;
 }
 }
 
 @media (max-width: 700px) {
     .taawan-text {
     bottom: 120px;
-    font-size:19;
+    font-size:19px;
     background: linear-gradient(
     to top, 
     rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
@@ -3454,6 +3467,22 @@ p {
   );
 }
 }
+
+
+@media (max-width: 650px) {
+    .taawan-text {
+    bottom: 40px;
+    font-size:15px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
+}
+}
+
+
+
 @media (max-width: 500px) {
     .taawan-text {
     bottom: 30px;
@@ -3473,13 +3502,25 @@ p {
     font-size:13px;
     background: linear-gradient(
     to top, 
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 228, 228, 0)    
+  );
+    
+}
+}
+
+@media (max-width: 300px) {
+    .taawan-text {
+    bottom: 10px;
+    font-size:13px;
+    background: linear-gradient(
+    to top, 
     rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
     rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
   );
     
 }
 }
-
 
 
 
