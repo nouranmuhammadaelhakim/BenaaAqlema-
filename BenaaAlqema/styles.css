@@ -446,10 +446,16 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-        gap: 2rem;
-        margin-bottom: 4rem;
+        gap: 18rem;
+        margin-bottom: 0rem;
     }
 
+.statsp{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
     .stat-card {
         
         /* backdrop-filter: blur(0px); */
@@ -3369,74 +3375,133 @@ p {
         margin: 0 10px;
     }
 }
-
+@media (max-width: 1950px) {
+    .taawan-text {
+    bottom: 510px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
+}
+}
 
 @media (max-width: 1900px) {
     .taawan-text {
-    bottom: 620px;
+    bottom: 560px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1700px) {
     .taawan-text {
-    bottom: 500px;
+    bottom: 450px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1550px) {
     .taawan-text {
-    bottom: 470px;
+    bottom: 320px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1390px) {
     .taawan-text {
-    bottom: 360px;
+    bottom: 300px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1300px) {
     .taawan-text {
-    bottom: 320px;
+    bottom: 250px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1180px) {
     .taawan-text {
-    bottom: 290px;
+    bottom: 200px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 1110px) {
     .taawan-text {
-    bottom: 230px;
+    bottom: 170px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 970px) {
     .taawan-text {
-    bottom: 240px;
+    bottom: 170px;
     font-size: 20px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 870px) {
     .taawan-text {
-    bottom: 180px;
+    bottom: 140px;
     font-size: 21px;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 800px) {
     .taawan-text {
-    bottom: 160px;
+    bottom: 110px;
     font-size:19px ;
+    background: linear-gradient(
+    to top, 
+    rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
+    rgba(233, 228, 228, 0)    /* شفاف تماماً فوق */
+  );
 }
 }
 
 @media (max-width: 700px) {
     .taawan-text {
-    bottom: 120px;
+    bottom: 80px;
     font-size:19px;
     background: linear-gradient(
     to top, 
@@ -3461,7 +3526,7 @@ p {
 
 @media (max-width: 650px) {
     .taawan-text {
-    bottom: 40px;
+    bottom: 100px;
     font-size:15px;
     background: linear-gradient(
     to top, 
@@ -3475,7 +3540,7 @@ p {
 
 @media (max-width: 500px) {
     .taawan-text {
-    bottom: 30px;
+    bottom: 0px;
     font-size:15px;
     background: linear-gradient(
     to top, 
@@ -3488,8 +3553,8 @@ p {
 
 @media (max-width: 400px) {
     .taawan-text {
-    bottom: 15px;
-    font-size:13px;
+    bottom: 0px;
+    font-size:12px;
     background: linear-gradient(
     to top, 
     rgba(255, 255, 255, 0.6),
@@ -3501,8 +3566,8 @@ p {
 
 @media (max-width: 300px) {
     .taawan-text {
-    bottom: 10px;
-    font-size:13px;
+    bottom: 4px;
+    font-size:10px;
     background: linear-gradient(
     to top, 
     rgba(255, 255, 255, 0.6),   /* أسود شفاف من تحت */
